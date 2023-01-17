@@ -1,0 +1,232 @@
+
+.header-a-nav{
+    display:flex;
+    position: relative;
+    background: transparent;
+    padding-top:5rem;
+    /* margin:4rem; */
+    margin-left:0rem;
+    margin-right: 0rem;
+    /* padding-bottom:2rem; */
+}
+.header-a-nav-logo{
+    margin-left:4rem;
+}
+.header-a-nav-logo img{
+    width:15rem;
+}
+.header-a-nav-div2{
+    position:absolute;
+    right:0;
+    margin-top:-1.5rem;
+    margin-right: 6rem;
+    display:flex;
+}
+.header-a-nav-div2-txt{
+    color:white;
+    padding:2rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+.header-a-nav-div2 button{
+    /* background-color: rgba(255, 255, 255, 1); */
+    color: white;
+    padding:0.5rem;
+    border-radius: 0.7rem;
+    width:8rem;
+background-image: url("../components/assets/btn-bg.png");
+background-size: cover;
+border: none;
+margin-left: 2rem;
+}
+.header-a-nav-div2-btn{
+    /* background-color: rgba(255, 255, 255, 1); */
+    color: white;
+    padding:0.5rem;
+    border-radius: 0.7rem;
+    width:8rem;
+background-image: url("../components/assets/btn-bg.png");
+background-size: cover;
+border: none;
+margin-left: 2rem;;
+}
+.header-a-div1{
+text-align: center;
+margin:8rem;
+
+}
+.header-a-div1-line1{
+    font-weight: 700;
+font-size: 50px;
+display: block;
+background: linear-gradient(90deg, #6890DE -9.27%, #A4A2E2 30.98%, #CA6AB5 92.88%, #E96787 143.96%),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
+}
+.header-a-div1-line2{
+    font-weight: 700;
+font-size: 50px;
+    color:#FFFFFF;
+    display:block;
+}
+.header-a-div1-line3{
+    font-weight: 700;
+font-size: 30px;
+color:#FFFFFF;
+margin-top:2rem;
+}
+.header-a-div1-line3-active{
+
+    background: linear-gradient(90deg, #6890DE -9.27%, #A4A2E2 30.98%, #CA6AB5 92.88%, #E96787 143.96%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* connect wallet button///////// */
+.iekbcc0.iekbcc9.ju367v73.ju367v7o.ju367v9c.ju367vn.ju367vec.ju367vex.ju367v11.ju367v1c.ju367v2b.ju367v8o._12cbo8i3.ju367v8m._12cbo8i4._12cbo8i6{
+    background-image: url("../components/assets/btn-bg.png");
+    background-size: cover;
+    width:auto;
+    /* margin-top:1.5rem; */
+    margin-left:1.5rem;
+}
+
+/* injected wallet button//////////// */
+.iekbcc0.ju367va.ju367v1n{
+    display:inline-block;
+    margin-top:1.5rem;
+}
+.iekbcc0.iekbcc9.ju367v4.ju367v9x.ju367vn.ju367vec.ju367vfo.ju367va.ju367v11.ju367v1c.ju367v8o._12cbo8i3.ju367v8m._12cbo8i4._12cbo8i6{
+    width:auto;
+    color:white;
+    margin-bottom:1rem;
+    background-image: url("../components/assets/btn-bg.png");
+    background-size: cover;
+    border-radius:0.5rem;
+}
+.iekbcc0.iekbcc9.ju367v4.ju367v9x.ju367vn.ju367vec.ju367vfo.ju367va.ju367v11.ju367v1c.ju367v8o._12cbo8i3.ju367v8m._12cbo8i4._12cbo8i6:hover{
+    width:auto;
+    background-image: url("../components/assets/btn-bg.png");
+    background-size: cover;
+    
+}
+/* .iekbcc0.ju367v70.ju367v7l.ju367v85.ju367v6e.ju367va3.ju367vcf.ju367vn.ju367vt.ju367vw.ju367vfo.ju367v11.ju367v1c.ju367v8o{
+    width:auto;
+
+} */
+.iekbcc0.ju367v70.ju367v7l.ju367v85.ju367v6e.ju367v9x.ju367vcf.ju367vn.ju367vt.ju367vw.ju367vfo.ju367v11.ju367v1c.ju367v8o{
+    background-image: url("../components/assets/btn-bg.png");
+    background-size: cover;
+}
+.iekbcc0.ju367v4.ju367va.ju367v1k{
+    color:white;
+
+}
+
+@media screen and (max-width: 1118px) {
+    .header-a-nav{
+        display:flex;
+        position: relative;
+        padding-top:2rem;
+        margin-left:0rem;
+        margin-right: 0rem;
+    }
+    .header-a-nav-logo{
+        margin-left:3rem;
+    }
+    .header-a-nav-div2{
+        position:absolute;
+        right:0;
+        margin-top:1rem;
+        margin-left: 1rem;
+    }
+    .header-a-nav-div2-txt{
+        display:none;
+    }
+    .header-a-nav-div2-new-btn {
+        margin-top:-0.5rem;
+    }
+    .header-a-nav-div2 button{
+        margin-left: 2rem;
+        width:8rem;
+        font-size:10px;
+    }
+    .header-a-div1{
+    text-align: center;
+    margin:1rem;
+    margin-top:6rem;
+    
+    }
+    .header-a-div1-line1{
+    font-size: 20px;
+    }
+    .header-a-div1-line2{
+    font-size: 20px;
+    }
+    .header-a-div1-line3{
+    font-size: 15px;
+    }
+    .header-a-nav-div2-new-btn {
+        margin-top:-0.5rem;
+    }
+    /* connect wallet button///////// */
+    .iekbcc0.iekbcc9.ju367v73.ju367v7o.ju367v9c.ju367vn.ju367vec.ju367vex.ju367v11.ju367v1c.ju367v2b.ju367v8o._12cbo8i3.ju367v8m._12cbo8i4._12cbo8i6{
+        margin-top:1rem;
+        font-size:15px;
+        margin-left:1rem;
+    }
+/* injected wallet button//////////// */
+.iekbcc0.ju367va.ju367v1n{
+    margin-top:0rem;
+}
+}
+@media screen and (max-width: 1000px) {
+
+        .header-a-nav-div2-txt{
+            display:none;
+        }
+
+}
+@media screen and (max-width: 500px) {
+    .header-a-nav{
+        display:flex;
+        position: relative;
+        padding-top:2rem;
+        margin-left:0rem;
+        margin-right: 0rem;
+    }
+    .header-a-nav-logo{
+        margin-left:1rem;
+    }
+    .header-a-nav-div2{
+        position:absolute;
+        right:0;
+        margin-top:1rem;
+        margin-left: 1rem;
+        margin-right:1rem;
+    }
+
+    .header-a-nav-logo img{
+        width:7.3rem;
+        height:3.2rem;
+    }
+    .header-a-nav-div2 button{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        width:6rem;
+        font-size:10px;
+    }
+    .iekbcc0.iekbcc9.ju367v73.ju367v7o.ju367v9c.ju367vn.ju367vec.ju367vex.ju367v11.ju367v1c.ju367v2b.ju367v8o._12cbo8i3.ju367v8m._12cbo8i4._12cbo8i6{
+        margin-top:0rem;
+        font-size:10px;
+        margin-left:0rem;
+    }
+/* injected wallet button//////////// */
+.iekbcc0.ju367va.ju367v1n{
+    font-size:10px
+}
+
+}
